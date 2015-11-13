@@ -1,0 +1,16 @@
+<figure class="quote">
+  <blockquote>
+    <p>{{content}}</p>
+  </blockquote>
+
+  {{#context}}
+  <figcaption>
+    {{#quotee}}
+    <address>{{quotee}}</address>
+    {{/quotee}}
+
+    <cite>{{#link}}<a href="{{link}}">{{/link}}{{location}}{{#link}}</a>{{/link}}</cite>
+  </figcaption>
+  {{/context}
+
+</figure>

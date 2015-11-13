@@ -1,0 +1,19 @@
+.quote {
+  display: block;
+  width: 80%;
+  margin: auto;
+}
+
+.quote blockquote {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.quote address {
+  font-color: #cccccc;
+}
+
+.quote cite {
+  font-color: #cccccc;
+  font-style: italic;
+}
