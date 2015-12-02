@@ -1,0 +1,4 @@
+<figure class="feature-wrapper" >
+        <img src="{{this.url}}" alt="{{this.title}}"><figcaption value="{{this.description}}"></figcaption>
+        <p contenteditable=\"true\" value="{{this.credits[0].name}}"></p>
+</figure>

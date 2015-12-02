@@ -1,10 +1,11 @@
-{
-   "schema": "https://raw.githubusercontent.com/washingtonpost/ans-content-elements/master/pull-quote/schema.json",
-   "form": [
+define({
+  return {
+    "schema": "https://raw.githubusercontent.com/washingtonpost/ans-content-elements/master/pull-quote/schema.json",
+    "form": [
       "content",
       {
-         "type": "fieldset",
-         "title": "Extra",
+        "type": "fieldset",
+        "title": "Extra",
          "items": [
             {
                "type": "help",
@@ -21,4 +22,5 @@
       }
    ],
    "validate": true
-}
+  };
+});
