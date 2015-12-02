@@ -1,0 +1,10 @@
+{
+  "name": "ANS Core Content Elements",
+  "elements": [
+    "raw-html",
+    "image",
+    "pull-quote"
+  ],
+  "namespace": "ans-core-elements",
+  "id": "https://raw.githubusercontent.com/washingtonpost/ans-content-elements/master/meta.json"
+}
